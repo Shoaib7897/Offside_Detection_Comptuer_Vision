@@ -1,6 +1,5 @@
-markdown
-Copy code
-# Offside_Detection_Computer_Vision
+
+# OffsideAI
 
 ## Introduction
 
