@@ -4,7 +4,7 @@ Copy code
 
 ## Introduction
 
-![Offside Rule Illustration](./assets/offside_rule_illustration.png)
+![Offside Rule Illustration](./assets/four.png)
 
 In many sports, referees are tasked with making crucial decisions that can significantly impact the outcome of games. Human bias and inconsistencies, however, mean that errors are inevitable. This project aims to solve this problem in the context of soccer by using computer vision techniques to automatically identify offside positions.
 
@@ -13,13 +13,13 @@ In many sports, referees are tasked with making crucial decisions that can signi
 By definition, an attacking player is considered to be in an offside position under certain conditions. The rules are complex but crucial for fair gameplay.
 
 > **Figure 1**: Player A is considered to be offside  
-> ![Player A Offside](./assets/player_a_offside.png)
+> ![Player A Offside](./assets/one.png)
 
 ## Details of the Approach
 
 ### YOLOv5 Model
 
-![YOLOv5 Architecture](./assets/yolov5_architecture.png)
+![YOLOv5 Architecture](./assets/three.png)
 
 We use the YOLOv5 model for object detection to identify players and their bounding boxes. The model is both fast and accurate, making it ideal for real-time applications.
 
